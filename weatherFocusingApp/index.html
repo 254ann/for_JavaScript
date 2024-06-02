@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecasting App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-image: url("./assets/blueSky.jpg");
+           
+        }
+
+        .firstDiv{
+            width: 80vw;
+            height: 20vh;
+            border: solid rgb(187, 187, 211);
+            border-radius: 20px;
+            
+        }
+
+        input{
+            border-radius: 50px;
+            width: 400px;
+        }
+       
+        #weather {
+            display: flex;
+
+            justify-content: center;
+            flex-wrap: wrap;
+          
+           
+        }
+        .day {
+            border: 1px solid black;
+            border-radius: 25px;
+            margin: 10px;
+            padding: 10px;
+            width: 150px;
+            text-align: center;
+            
+            
+            
+            /* background-image: url("assets/whiteSky.avif"); */
+        }
+        .day img {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Weather Forecasting App</h1>
+    <input type="text" id="cityInput" placeholder="Enter a city">
+    <div class="container">
+        <div class="firstDiv"></div>
+        <div id="weather"></div>
+    </div>
+    
+
+    <script src="./assets/index.js"></script>
+</body>
+</html>

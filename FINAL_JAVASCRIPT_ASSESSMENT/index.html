@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <style>
+        .cart{
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Products</h1>
+    <div id="products">
+        <div class="product" data-id = "1" data-name ="product 1" data-price = "10">
+            <p>Product 1 -$ 10</p>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </div>
+        <div class="product" data-id = "2" data-name ="product 2" data-price = "20">
+            <p>Product 2 -$ 20</p>
+            <button onclick="addToCart(2)">Add to Cart</button>
+        </div>
+
+
+        
+    </div>
+
+    <h1>Shopping Cart</h1>
+    <div id="cart" class="cart">
+        <p>No items</p>
+    </div>
+    <script src="./finalJs.js"></script>
+    
+</body>
+</html>
