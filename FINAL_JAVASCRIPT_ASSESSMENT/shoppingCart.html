@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+    <style>
+        .product-card {
+            padding: 16px;
+            margin: 16px;
+            width: 300px;
+            border: 1px solid #ddd;
+        }
+        img {
+            width: 100px;
+            height: 50px;
+        }
+
+       
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: darkblue;
+        }
+        #cart-items {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        #cart-items div {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Products</h1>
+    <div id="product-container" style="display: flex; flex-wrap: wrap;"></div>
+
+    <script src="./test.js"></script>
+</body>
+</html>
